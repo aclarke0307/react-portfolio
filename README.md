@@ -1,4 +1,27 @@
-# Getting Started with Create React App
+# React Portfolio
+
+## Description
+
+Created an updateing portfolio using React. 
+
+## Frameworks
+React
+HTML
+CSS
+javascript
+
+## website 
+
+https://aclarke0307.github.io/react-portfolio/
+
+## Contributing
+aclarke0307
+
+## github
+https://github.com/aclarke0307/react-portfolio
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
