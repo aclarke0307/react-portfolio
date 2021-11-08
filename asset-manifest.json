@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.971538b9.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.c783e376.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.c783e376.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.98d01fef.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.98d01fef.js.map",
+    "static/js/2.a8d0721d.chunk.js": "/react-portfolio/static/js/2.a8d0721d.chunk.js",
+    "static/js/2.a8d0721d.chunk.js.map": "/react-portfolio/static/js/2.a8d0721d.chunk.js.map",
+    "static/js/3.15bc73c0.chunk.js": "/react-portfolio/static/js/3.15bc73c0.chunk.js",
+    "static/js/3.15bc73c0.chunk.js.map": "/react-portfolio/static/js/3.15bc73c0.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.971538b9.chunk.css.map": "/react-portfolio/static/css/main.971538b9.chunk.css.map",
+    "static/js/2.a8d0721d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.a8d0721d.chunk.js.LICENSE.txt",
+    "static/media/decide-eat.81434871.png": "/react-portfolio/static/media/decide-eat.81434871.png",
+    "static/media/horiseon.4de01715.png": "/react-portfolio/static/media/horiseon.4de01715.png",
+    "static/media/price-tracker.43baf884.png": "/react-portfolio/static/media/price-tracker.43baf884.png",
+    "static/media/run-buddy.3e6282cd.png": "/react-portfolio/static/media/run-buddy.3e6282cd.png",
+    "static/media/self.0200a72a.jpg": "/react-portfolio/static/media/self.0200a72a.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98d01fef.js",
+    "static/js/2.a8d0721d.chunk.js",
+    "static/css/main.971538b9.chunk.css",
+    "static/js/main.c783e376.chunk.js"
+  ]
+}
