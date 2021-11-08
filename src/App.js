@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Nav from './components/Nav';
 import About from './components/About';
-import Project from './components/Project';
+import ContactForm from './components/Contact';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Nav></Nav>
       <main>
         <About></About>
-        <Project></Project>
+        <ContactForm></ContactForm>
       </main>
     
     </div>
