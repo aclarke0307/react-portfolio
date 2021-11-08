@@ -1,13 +1,210 @@
-body {
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  background-color: #856c8b;
+}
+/* apply style to <header> */
+header {
+  padding: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+
+
+}
+header h1 {
+  margin: 0;
+  font-size: 45px;
+  font-weight: lighter;
+  
+}
+header nav {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding-top: 10px;
+}
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul li a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+header nav ul li a:hover{
+  color: #D4ebd0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: white;
+  text-decoration: none;
+}
+/*End of style to header */
+
+/*apply style to About Me section */
+
+.step {
+  background-color: #D4ebd0;
+  overflow: auto;
+  margin: 20px 20px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+.step img {
+  width: 15%;
+  margin: 3%;
+  margin-top: 15px;
+  margin-left: 40px;
+  border-radius: 15px;
+}
+.step p {
+  margin-right: 10px;
+  margin-top: 40px;
+  font-size: 26px;
+  text-align: right;
+  flex-wrap: wrap;
+}
+.section-title{
+  text-align:center;
+  font-size: 45px;
+  font-weight:700;
+}
+.work h2 {
+  text-align: center;
+}
+/*end of style to About me */
+
+/*apply style to my projects */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.flex-item {
+  width: 45%;
+  border-radius: 25%;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-position: center;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.flex-item .text-block {
+  margin-top: auto;
+  bottom: 20px;
+  color: white;
+}
+.portfolio-img {
+  width: 70%;
+  height: 100%;
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.80);
+}
+.portfolio-img:hover {
+  transform: scale(1.1);
+  
+}
+
+
+/*footer*/
+footer {
+  padding: 20px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: justify;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+footer h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  padding-top: 10px;
+  font-weight: bolder;
+}
+footer ul li {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+footer ul li {
+  margin: 0 100px;
+}
+footer a {
+  color: white;
+}
+/* Media Query for smaller desktop screens and smaller */
+@media screen and (max-width :989px) {
+  header {
+      padding-bottom: 0;
+      justify-content: center;
+  }
+  header h1{
+      width: 100%;
+      text-align: center;
+  }
+  header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+  }
+  header nav ul li a {
+      font-size: 20px;
+  }
+  footer h2 ul li {
+      text-align: center;
+      width: 100%;
+  }
+  .step {
+      width: 100%;
+      text-align: center;
+  }
+  .section-title {
+      width: 80%;
+  }
+}
+
+/*Media Query for tablets amd smaller */
+@media  screen and (max-width: 768px) {
+  .work {
+      padding: 30px 15px;
+
+  }
+  .portfolio-img{
+      flex: 0 32%;
+      margin-right: 0;
+      margin-top: 15px;
+      margin-bottom: 15px;
+  }
+  .text-block {
+      flex: 100%;
+      padding-top: 30px;
+  }
+}
+
+/*Media Query for mobile phones ans smaller */
+@media  screen and (max-width: 575px) {
+  .section-title {
+      width: 95%;
+  }
+  .text-block {
+      flex: 100%;
+      padding-top: 30px;
+  }
 }
